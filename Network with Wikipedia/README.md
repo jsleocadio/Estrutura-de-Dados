@@ -150,3 +150,5 @@ To come with another visualization, we decided to use `the community detection`.
 <figure align="center">
     <img src="https://github.com/jsleocadio/Estrutura-de-Dados/blob/main/Network%20with%20Wikipedia/images/Gephisto_modularity.png">
 </figure>
+
+Video: [loom](https://www.loom.com/share/22507b74b3ab4d3ba3f110e7789261b3)
