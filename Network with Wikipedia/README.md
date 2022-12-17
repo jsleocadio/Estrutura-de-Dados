@@ -129,5 +129,24 @@ With the results of that procedure, we imported the `csv file` generated on `Gep
     <figcaption>Graph generated on Retina. Each node size is based on how large is his degree, and the color of the node is based on which group it is in</figcaption>
 </figure>
 
+
 * Visualization on Gephisto
-![Gephisto Degree](https://github.com/jsleocadio/Estrutura-de-Dados/blob/main/Network%20with%20Wikipedia/images/Gephisto_degree.png)
+<figure align="center">
+    <img src="https://github.com/jsleocadio/Estrutura-de-Dados/blob/main/Network%20with%20Wikipedia/images/Gephisto_degree.png">
+</figure>
+
+## Community Visualization
+
+To come with another visualization, we decided to use `the community detection`. The data was generated on `Gephi`, in the `statistics` tab of the gephi software, the `modularity metric` was chosen.
+
+* Visualization on Retina
+<figure align="center">
+    <img src="https://github.com/jsleocadio/Estrutura-de-Dados/blob/main/Network%20with%20Wikipedia/images/retina_community.png">
+    <figcaption>Graph generated on Retina. It is possible to notice that three communities were detected in our network</figcaption>
+</figure>
+
+
+* Visualization on Gephisto
+<figure align="center">
+    <img src="https://github.com/jsleocadio/Estrutura-de-Dados/blob/main/Network%20with%20Wikipedia/images/Gephisto_modularity.png">
+</figure>
