@@ -115,7 +115,7 @@ To make things easy, we used `pandas` library to help make that filter. After th
 * Group 2: $1000 \leq$ degree $\leq 1199$
 * Group 1: $1200 \leq$ degree
 
-Notebook with codes can be accessed by: [CSV Parsing]()
+Notebook with codes can be accessed by: [CSV Parsing](https://github.com/jsleocadio/Estrutura-de-Dados/blob/main/Network%20with%20Wikipedia/CSV_Parsing.ipynb)
 
 After that our network has: 222 nodes and 16938
 
