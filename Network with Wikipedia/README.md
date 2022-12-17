@@ -98,3 +98,36 @@ Then, plotting the histogram with the CDF and PDF functions, it is possible to s
 After that, it was made a plot which to compare the metrics. On the diagonal, it's possible to notice that the distributions have a long tail to the right side, with a positive symmetry, where many nodes have a small degree, and few nodes have a neighborhood of little importance. Also, the eigenvector and closeness have an exponential trend, i. e., as one increases, the other increases as well. However, there is a limitation in this trend, in that after a certain point, this is no longer a valid thing.
 
 ![All](https://github.com/jsleocadio/Estrutura-de-Dados/blob/main/Network%20with%20Wikipedia/images/all.png)
+
+# Network visualization
+
+There are some tools to help us visualize our work. We had use `Gephi` before, and now we will use [Retina](https://ouestware.gitlab.io/retina/beta/) and [Gephisto](https://jacomyma.github.io/gephisto/) to get better visualization.
+
+## Editing our network
+
+Even after all procedure done above, our network is GIGANTIC! With 25963 nodes and 134093 edges is very complex to show the Graph with quality. Because of that, we filtering our network by excluding all nodes with a degree inferior to 300. 
+
+To make things easy, we used `pandas` library to help make that filter. After that, we add the node within a group by:
+
+* Group 5: $300 \leq$ degree $\leq 499$
+* Group 4: $500 \leq$ degree $\leq 699$
+* Group 3: $700 \leq$ degree $\leq 999$
+* Group 2: $1000 \leq$ degree $\leq 1199$
+* Group 1: $1200 \leq$ degree
+
+Notebook with codes can be accessed by: [CSV Parsing]()
+
+After that our network has: 222 nodes and 16938
+
+With the results of that procedure, we imported the `csv file` generated on `Gephi` and produced our final visualization. Yet on Gephi, we generated a new `graphml file` to use on `Retina` and `Gephisto`.
+
+## Degree Visualizations
+
+* Visualization on Retina
+<figure align="center">
+    <img src="https://github.com/jsleocadio/Estrutura-de-Dados/blob/main/Network%20with%20Wikipedia/images/retina_degree.png">
+    <figcaption>Graph generated on Retina. Each node size is based on how large is his degree, and the color of the node is based on which group it is in</figcaption>
+</figure>
+
+* Visualization on Gephisto
+![Gephisto Degree](https://github.com/jsleocadio/Estrutura-de-Dados/blob/main/Network%20with%20Wikipedia/images/Gephisto_degree.png)
